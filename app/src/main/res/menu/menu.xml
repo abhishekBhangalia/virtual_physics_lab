@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<item android:id="@+id/i0"
+    android:title="Apparatus"
+    app:showAsAction="ifRoom"/>
+    <item android:id="@+id/i1"
+    android:title="Wire"
+    app:showAsAction="never|withText">
+<menu>
+    <item android:id="@+id/i11"
+
+        android:title="Steel Wire"
+        app:showAsAction="never"/>
+    <item android:id="@+id/i12"
+
+        android:title="Iron Wire"
+        app:showAsAction="never"/>
+    <item android:id="@+id/i13"
+
+        android:title="Gold Wire"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/i14"
+
+        android:title="Sapphire Wire"
+        app:showAsAction="never"/>
+
+
+
+    <item android:id="@+id/i15"
+
+        android:title="Copper Wire"
+        app:showAsAction="never"/>
+</menu>
+
+</item>
+
+    <item android:id="@+id/i2"
+
+        android:title="Screw Gauge"
+        app:showAsAction="never"/>
+    <item android:id="@+id/i3"
+
+        android:title="Meter Scale"
+        app:showAsAction="never"/>
+    <item android:id="@+id/i4"
+        android:title="Weight"
+        app:showAsAction="never"/>
+
+</menu>

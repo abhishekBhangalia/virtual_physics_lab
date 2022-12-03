@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/frameLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OhmsLawSimulation">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent=".25"
+        android:background="@drawable/border">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select the Material"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            />
+
+        <Spinner
+            android:id="@+id/material_ohm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:text="Length of Wire (in cm)"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/length_ohms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text=""
+            android:textSize="14sp"
+            android:paddingLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:text="Diameter of Wire (in mm)"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/diameter_ohms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text=""
+            android:textSize="14sp"
+            android:paddingLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resistance of Rheostat"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"/>
+
+        <EditText
+            android:id="@+id/resistance_ohms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text=""
+            android:textSize="14sp"
+            android:paddingLeft="10dp"/>
+
+        <Button
+            android:id="@+id/reset_ohms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/showResult_ohms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Show Result"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent=".75">
+
+        <TextView
+            android:id="@+id/ammeter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textview_border"
+            android:text="Ammeter\n"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias=".25"
+            app:layout_constraintVertical_bias=".75"/>
+
+        <TextView
+            android:id="@+id/voltmeter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textview_border"
+            android:text="Voltmeter\n"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias=".75"
+            app:layout_constraintVertical_bias=".75"
+            />
+
+        <TextView
+            android:id="@+id/battery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textview_border"
+            android:text="Battery"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias=".25"
+            app:layout_constraintVertical_bias=".25" />
+
+        <TextView
+            android:id="@+id/rheostat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textview_border"
+            android:text="Rheostat\n"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="483dp"
+            tools:layout_editor_absoluteY="103dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias=".75"
+            app:layout_constraintVertical_bias=".25" />
+
+        <TextView
+            android:id="@+id/bpos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textSize="35sp"
+            android:layout_marginRight="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/battery"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias=".25" />
+        <TextView
+            android:id="@+id/rpos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textSize="35sp"
+            android:layout_marginRight="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/rheostat"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias=".25" />
+        <TextView
+            android:id="@+id/bneg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textSize="35sp"
+            android:layout_marginLeft="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/battery"
+            app:layout_constraintVertical_bias=".25" />
+        <TextView
+            android:id="@+id/rneg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textSize="35sp"
+            android:layout_marginLeft="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/rheostat"
+            app:layout_constraintVertical_bias=".25" />
+        <TextView
+            android:id="@+id/aneg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textSize="35sp"
+            android:layout_marginLeft="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/ammeter"
+            app:layout_constraintVertical_bias=".75" />
+        <TextView
+            android:id="@+id/vneg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textSize="35sp"
+            android:layout_marginLeft="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/voltmeter"
+            app:layout_constraintVertical_bias=".75" />
+        <TextView
+            android:id="@+id/apos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textSize="35sp"
+            android:layout_marginRight="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/ammeter"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias=".75" />
+        <TextView
+            android:id="@+id/vpos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textSize="35sp"
+            android:layout_marginRight="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/voltmeter"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias=".75" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

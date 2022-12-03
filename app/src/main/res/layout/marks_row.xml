@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_margin="1dp"
+        android:background="#000000">
+
+
+        <TextView
+            android:id="@+id/textView_roll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_margin="1dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="TextView"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/textView_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_margin="1dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="TextView"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_sem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_margin="1dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="TextView"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:layout_margin="1dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="TextView"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/textView_marks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:layout_margin="1dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="TextView"
+            android:inputType="text"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+
+</TableLayout>
+

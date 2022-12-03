@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditViva">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/vivaTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Viva Title"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:inputType="textPersonName"
+                android:textAlignment="center"/>
+
+            <EditText
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:textStyle="italic"
+                android:textSize="14sp"
+                android:hint=" Enter Description"
+                android:textAlignment="center"/>
+
+            <EditText
+                android:id="@+id/question1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Question 1"
+                android:textStyle="bold"
+                android:inputType="textPersonName"
+                android:text=""
+                android:layout_marginTop="50dp"/>
+            <EditText
+                android:id="@+id/option11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Option 1"/>
+            <EditText
+                android:id="@+id/option12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Option 2"/>
+            <EditText
+                android:id="@+id/option13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Option 3"/>
+
+            <EditText
+                android:id="@+id/option14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Option 4"/>
+
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Select correct option"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:textSize="16sp"/>
+
+            <Spinner
+                android:id="@+id/a1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/question2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Question 2"
+                android:textStyle="bold"
+                android:inputType="textPersonName"
+                android:text=""
+                android:layout_marginTop="50dp"/>
+            <EditText
+                android:id="@+id/option21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Option 1"/>
+            <EditText
+                android:id="@+id/option22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Option 2"/>
+            <EditText
+                android:id="@+id/option23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Option 3"/>
+            <EditText
+                android:id="@+id/option24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Option 4"/>
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Select correct option"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textSize="16sp"/>
+            <Spinner
+                android:id="@+id/a2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/question3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Question 3"
+                android:textStyle="bold"
+                android:inputType="textPersonName"
+                android:text=""
+                android:layout_marginTop="50dp"/>
+            <EditText
+                android:id="@+id/option31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Option 1"/>
+            <EditText
+                android:id="@+id/option32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Option 2"/>
+            <EditText
+                android:id="@+id/option33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Option 3"/>
+            <EditText
+                android:id="@+id/option34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Option 4"/>
+            <TextView
+                android:id="@+id/textView169"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Select correct option"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textSize="16sp"/>
+            <Spinner
+                android:id="@+id/a3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/question4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Question 4"
+                android:textStyle="bold"
+                android:inputType="textPersonName"
+                android:text=""
+                android:layout_marginTop="50dp"/>
+            <EditText
+                android:id="@+id/option41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Option 1"/>
+            <EditText
+                android:id="@+id/option42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Option 2"/>
+            <EditText
+                android:id="@+id/option43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Option 3"/>
+            <EditText
+                android:id="@+id/option44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Option 4"/>
+            <TextView
+                android:id="@+id/textView1634"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Select correct option"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:textSize="16sp"/>
+            <Spinner
+                android:id="@+id/a4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/question5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Question 5"
+                android:textStyle="bold"
+                android:inputType="textPersonName"
+                android:text=""
+                android:layout_marginTop="50dp"/>
+            <EditText
+                android:id="@+id/option51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Option 1"/>
+            <EditText
+                android:id="@+id/option52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Option 2"/>
+            <EditText
+                android:id="@+id/option53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Option 3"/>
+            <EditText
+                android:id="@+id/option54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Option 4"/>
+            <TextView
+                android:id="@+id/textView16345"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Select correct option"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:textSize="16sp"/>
+            <Spinner
+                android:id="@+id/a5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/question6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Question 6"
+                android:textStyle="bold"
+                android:inputType="textPersonName"
+                android:text=""
+                android:layout_marginTop="50dp"/>
+            <EditText
+                android:id="@+id/option61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Option 1"/>
+            <EditText
+                android:id="@+id/option62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Option 2"/>
+            <EditText
+                android:id="@+id/option63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Option 3"/>
+            <EditText
+                android:id="@+id/option64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Option 4"/>
+            <TextView
+                android:id="@+id/textView1633545"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Select correct option"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:textSize="16sp"/>
+            <Spinner
+                android:id="@+id/a6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/question7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Question 7"
+                android:textStyle="bold"
+                android:inputType="textPersonName"
+                android:text=""
+                android:layout_marginTop="50dp"/>
+            <EditText
+                android:id="@+id/option71"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Option 1"/>
+            <EditText
+                android:id="@+id/option72"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Option 2"/>
+            <EditText
+                android:id="@+id/option73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Option 3"/>
+            <EditText
+                android:id="@+id/option74"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Option 4"/>
+            <TextView
+                android:id="@+id/textView1621345"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Select correct option"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:textSize="16sp"/>
+            <Spinner
+                android:id="@+id/a7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/question8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Question 8"
+                android:textStyle="bold"
+                android:inputType="textPersonName"
+                android:text=""
+                android:layout_marginTop="50dp"/>
+            <EditText
+                android:id="@+id/option81"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Option 1"/>
+            <EditText
+                android:id="@+id/option82"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Option 2"/>
+            <EditText
+                android:id="@+id/option83"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Option 3"/>
+            <EditText
+                android:id="@+id/option84"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Option 4"/>
+            <TextView
+                android:id="@+id/textView1621345"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Select correct option"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:textSize="16sp"/>
+            <Spinner
+                android:id="@+id/a8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/question9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Question 9"
+                android:textStyle="bold"
+                android:inputType="textPersonName"
+                android:text=""
+                android:layout_marginTop="50dp"/>
+            <EditText
+                android:id="@+id/option91"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Option 1"/>
+            <EditText
+                android:id="@+id/option92"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Option 2"/>
+            <EditText
+                android:id="@+id/option93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Option 3"/>
+            <EditText
+                android:id="@+id/option94"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Option 4"/>
+            <TextView
+                android:id="@+id/textView167345"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Select correct option"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:textSize="16sp"/>
+            <Spinner
+                android:id="@+id/a9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/question10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Question 10"
+                android:textStyle="bold"
+                android:inputType="textPersonName"
+                android:text=""
+                android:layout_marginTop="50dp"/>
+            <EditText
+                android:id="@+id/option101"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Option 1"/>
+            <EditText
+                android:id="@+id/option102"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Option 2"/>
+            <EditText
+                android:id="@+id/option103"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Option 3"/>
+            <EditText
+                android:id="@+id/option104"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Option 4"/>
+            <TextView
+                android:id="@+id/textView1216345"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Select correct option"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:textSize="16sp"/>
+            <Spinner
+                android:id="@+id/a10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:onClick="setViva"
+                android:text="Submit" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

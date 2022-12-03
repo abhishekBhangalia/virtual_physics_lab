@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ym_viva"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:windowSoftInputMode="adjustPan"
+    tools:context=".YMViva">
+
+    <TextView
+        android:id="@+id/rName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:text="NAME"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter your name here"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintTop_toBottomOf="@+id/rName"
+        tools:layout_editor_absoluteX="200dp" />
+
+    <TextView
+        android:id="@+id/rRollno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:text="ROLL NO."
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name" />
+
+    <EditText
+        android:id="@+id/roll_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter your Roll No. here"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintTop_toBottomOf="@+id/rRollno"
+        tools:layout_editor_absoluteX="97dp" />
+
+    <TextView
+        android:id="@+id/rSemester"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:text="SEMESTER"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/roll_no" />
+
+    <TextView
+        android:id="@+id/rCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:text="COURSE"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/semester_s" />
+
+    <Button
+        android:id="@+id/startViva"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:enabled="false"
+        android:text="Start Viva"
+        app:layout_constraintTop_toBottomOf="@+id/course_s"
+        tools:layout_editor_absoluteX="198dp" />
+
+    <Spinner
+        android:id="@+id/semester_s"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/rSemester"
+        tools:layout_editor_absoluteX="45dp" />
+
+    <Spinner
+        android:id="@+id/course_s"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/rCourse"
+        tools:layout_editor_absoluteX="2dp" />
+
+    <Button
+        android:id="@+id/editViva"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Edit Viva"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/startViva" />
+</androidx.constraintlayout.widget.ConstraintLayout>
